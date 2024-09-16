@@ -453,9 +453,10 @@ section {
         font-size: 1.4rem;
         border-radius: 50%;
         line-height: 1.55;
-        text-align: center;
         box-shadow: 0 0 0 3px var(--primary-color);
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transition: 0.5s;
         cursor: pointer;
     }
